@@ -11,7 +11,7 @@ public class KafkaConfiguration {
 	@Bean
 	public NewTopic topic() {
 		return TopicBuilder.name("location-update-topic").build();
-
+//initialize bean
 	}
 
 }
