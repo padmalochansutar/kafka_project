@@ -16,6 +16,7 @@ public class KafkaController {
 	private KafkaService kafkaService;
 	
 	public ResponseEntity<?> updateLocation(){
+		  System.out.println("Kafka");
 		
 		 kafkaService.updateLocation("("+Math.round(Math.random()*100) +" ,"+Math.round(Math.random()*100) +")");
 		 return new ResponseEntity<>(Map.of("message", "location updated"),HttpStatus.OK);
