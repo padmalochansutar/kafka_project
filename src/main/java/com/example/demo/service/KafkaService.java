@@ -8,7 +8,7 @@ import com.example.demo.configuration.AppConstants;
 
 @Service
 public class KafkaService {
-	//
+	//this is used for data
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 	
