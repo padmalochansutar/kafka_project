@@ -15,7 +15,12 @@ public class KafkaDeliveryBoyApplication {
  public void loadDataToCach(){
 		System.out.println("Data store in cache");
      }
+<<<<<<< HEAD
 	 public static getData(String msg){
 		 sysout("Hii Data");
+=======
+	 public static getMsg(){
+		 sysout("Hii");
+>>>>>>> origin/master
 	 }
 }
