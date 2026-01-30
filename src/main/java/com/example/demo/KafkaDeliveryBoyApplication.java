@@ -23,4 +23,7 @@ public class KafkaDeliveryBoyApplication {
 		 sysout("Hii");
 
 	 }
+	 public integer add(int a,int b){
+		 return a+b;
+	 }
 }
