@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class KafkaDeliveryBoyApplication {
     Map<string,Object>  map=new HashMap<>();
+	private static final REST_URl="https://localhost:8080";
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaDeliveryBoyApplication.class, args);
 	}
